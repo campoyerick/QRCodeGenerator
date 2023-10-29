@@ -3,7 +3,7 @@ import qrcode
 from qrcode.constants import ERROR_CORRECT_L
 
 class GeradorQRCode:
-    def __init__(self, tamanho_caixa=10, borda=1, versao=1, correcao_erro=ERROR_CORRECT_L, cor_preenchimento="#000000"):
+    def __init__(self, tamanho_caixa=10, borda=1, versao=1, correcao_erro=ERROR_CORRECT_L, cor_preenchimento="#FF0000"):
         self.tamanho_caixa = tamanho_caixa
         self.borda = borda
         self.versao = versao
